@@ -1,0 +1,17 @@
+{
+  "name": "talk-to-gpt",
+  "version": "1.0.0",
+  "description": "A simple application to use the OpenAI API to talk to it through the app.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --env-file=.env index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "openai": "^4.68.1"
+  }
+}
